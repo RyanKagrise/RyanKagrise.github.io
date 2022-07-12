@@ -1247,8 +1247,11 @@ footer .credits a {
 }
 
 .the-text-align {
-  text-align: center;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
 
 .the-projects-section {
